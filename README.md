@@ -33,6 +33,10 @@ This project extracts text from images using Python, Tesseract OCR, and saves th
 ## Usage
 
 1. Place your image in the `images/` folder.
+
+
+
+![Sample OCR Image](images/test%20image.PNG)
 2. Edit `main.py` to set your image path if needed.
 3. Run the script:
    ```
