@@ -59,6 +59,37 @@ OCR/
 └── README.md
 ```
 
+
+
+## sample Output
+
+
+
+
+Extracted Text:
+IT 643 InfoSec Lab Guidelines and Rubric
+
+Overview
+‘Throughout tis cours, you willbe completing several labs. These labs have two purposes:
+
++ To provide you with valuable opperturities to “walk a mile inthe shoes" ofa forensic practitioner performing basic forensic tasks. Gaining this type of experience is necessary for
+‘managing and relating tothe individuals and teams you willnteract with in the fed
++ Tohelp you practice the communication and writing skis you wll need to employ in both pieces of your fina project
+
+‘These activites are relevant to your final project. Tey ae practice opportunities that focus on some ofthe specific topics and sls that need to be addressed in the network defense
+traning manual you wll create, and the milestones you will complete inthe modules throughout the course Include examples and details from your experiences with the labs to support the
+
+sections in your training manual.
+Directions
+
+To complete the abs, you will summarize each lab and provide screenshots to demonstrate your completion ofthe tasks
+Specifically, you must address the fllowing rubric criteria
+
+1. Lab Summary: Provide a thorough summary ofthe lab
+2, Required Screenshots: In your lb report submission, include the screenshots outlined inthe InfoSec Lab Expectations document, Screenshots need to splay your name and the date
+
+within the image. Follow these steps to complete the screenshot:
+
 ## License
 
 MIT License

@@ -47,7 +47,8 @@ def main():
     print(output_file)
     # # Extract text from the image
     extracted_text = text_from_image(image_path)
-    
+    print("Extracted Text:")
+    print(extracted_text)
     # # Save the extracted text to a PDF file
     save_text_to_file(extracted_text, output_file)
 
