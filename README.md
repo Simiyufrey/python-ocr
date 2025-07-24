@@ -90,6 +90,71 @@ Specifically, you must address the fllowing rubric criteria
 
 within the image. Follow these steps to complete the screenshot:
 
+
+# PDF Image OCR Automation
+
+This project extracts images embedded in PDF files, performs OCR (Optical Character Recognition) on those images using Tesseract, and saves the extracted text to a new PDF file.
+
+## Features
+
+- Extracts all images from each page of a PDF.
+- Runs OCR on each image using Tesseract OCR.
+- Saves the extracted text to a new PDF using a Unicode font (DejaVu Sans).
+- Handles Unicode characters correctly in the output PDF.
+
+## Requirements
+
+- Python 3.7+
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) (Windows: install and set the path in `multiple.py`)
+- Python packages:
+  - pytesseract
+  - pillow
+  - fpdf2
+  - pymupdf (fitz)
+
+## Setup
+
+1. **Install Tesseract OCR**  
+   Download and install from [here](https://github.com/tesseract-ocr/tesseract/wiki).
+
+2. **Install Python dependencies**  
+   ```
+   pip install pytesseract pillow fpdf2 pymupdf
+   ```
+
+3. **Download DejaVu Sans font**  
+   Place `DejaVuSans.ttf` in `fonts/dejavu-sans/` (create folders if needed).
+
+## Usage
+
+1. Place your PDF in the `pdfs/` folder (e.g., `pdfs/admission.pdf`).
+2. Run the script:
+   ```
+   python multiple.py
+   ```
+3. The extracted text will be saved as a PDF in the `output/` folder (e.g., `output/ocr_output.pdf`).
+
+## Example
+
+Suppose you have a PDF named `admission.pdf` with embedded images.  
+After running the script, you will get a new PDF (`ocr_output.pdf`) containing the OCR results for each image.
+
+## File Structure
+
+```
+OCR/
+├── fonts/
+│   └── dejavu-sans/
+│       └── DejaVuSans.ttf
+├── pdfs/
+│   └── admission.pdf
+├── output/
+│   └── ocr_output.pdf
+├── multiple.py
+└── README.md
+```
+
+
 ## License
 
 MIT License
