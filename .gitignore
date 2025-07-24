@@ -6,4 +6,6 @@ output/
 fonts/
 images/
 venv/
+pdfs/
+.venv/
 # Ignore Python virtual environment
