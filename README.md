@@ -112,6 +112,7 @@ This project extracts images embedded in PDF files, performs OCR (Optical Charac
   - fpdf2
   - pymupdf (fitz)
 
+
 ## Setup
 
 1. **Install Tesseract OCR**  
